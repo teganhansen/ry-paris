@@ -1,0 +1,263 @@
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    text-decoration: none;
+    font: inherit;
+    vertical-align: baseline;
+}
+h1 {
+    background-color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    margin: 0 0 1% 0;
+}
+h2 {
+    background-color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Kanit', sans-serif;
+    padding: 5% 0 0 0;
+    margin: 0 0 1% 0;
+}
+h3 {
+    font-size: 1.7em;
+    margin-bottom: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+    margin-left: 5%;
+}
+h6 {
+    /* recipe.html */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+    font-size: 1.5em;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    padding: 5% 0 5% 0;
+    margin-bottom: 25%;
+}
+#start-the-week {
+    position: absolute;
+    padding: 0 20px;
+    bottom: 175px;
+    left: 400px;
+    order: 2;
+}
+
+
+a {
+    font-size: large;
+    text-decoration: none;
+    color: black;
+    padding-right: 6%;
+}
+.links {
+    width: 40%;
+    margin: 4% 8% 0 0;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footlinks {
+    width: 40%;
+    margin: 0 2% 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footlinks a {
+    font-size: 1em;
+}
+
+header {
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+}
+#navBorder {
+    border-bottom-style: solid;
+    border: 0px 0px 20px 0px;
+    border-color: #fff;
+}
+.box {
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: orange;
+    padding: 3% 0 3% 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#grey-BG {
+    background-color: rgb(210, 221, 238);
+    padding: 0 10% 0 10%;
+}
+.gray-BG {
+    background-color: rgb(218, 225, 234);
+    padding: 30px 0 0 0;
+    margin: 0;
+}
+#grey-text {
+    background-color: rgb(210, 221, 238);
+
+}
+.square {
+    width: 350px;
+    height: 250px;
+    gap: 30px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.square4 {
+    width: 275px;
+    height: 250px;
+    gap: 30px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.square3 {
+    border: 10px solid rgb(195, 212, 220);
+    width: 350px;
+    height: 250px;
+    gap: 30px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.cropper {
+    background-color: aquamarine;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    overflow: hidden;
+}
+#title-img {
+    position: relative;
+    width: 100%;
+}
+.img-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* only recipe.html */
+#timelist {
+    background-color: rgb(218, 225, 234);
+    padding: 0 10% 0 10%;
+    /* height: .5%; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.textcolumn {
+    width: 70%;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} 
+.timeSpacing {
+    width: 230px;
+    margin: 10px 40px 10px 10px;
+    font-size: 1.25em;
+}
+.recipeMain {
+    margin: 0  10%;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.save {
+    display: flex;
+    align-items: center;
+}
+#reviews {
+    font-size: 1em;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+#savebutton {
+    background-color: rgb(160, 14, 14);
+    color: #fff;
+    padding: 10px 30px;
+    margin: 30px 25px 30px 0;
+    border-radius: 50px;
+}
+.starImg {
+    height: 15px;
+}
+#printlogo {
+    height: 30px;
+    padding: 5px 3px 5px 5px;
+    border: 3px solid rgb(187, 187, 187);
+    border-radius: 50px;
+}
+#noMoreDry {
+    background-color: rgb(228, 229, 236);
+    font-weight: bold;
+    padding: 40px 185px;
+    margin-top: 30px;
+}
+.ingre {
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul {
+    width: 600px;
+    padding: 0;
+}
+ol {
+    width: 600px;
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 250px;
+}
+.ulli {
+    font-size: large;
+    margin-left: 20px;
+}
+.olli {
+    font-size: large;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+#ullisep {
+    font-size: 1em;
+    padding: 30px 0 0 20px;
+    margin: 0;
+}
+#ollisep {
+    font-size: 1em;
+    padding: 0 0 0 40px;
+    margin: 0;
+}
+
+#video {
+    padding: 0 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
